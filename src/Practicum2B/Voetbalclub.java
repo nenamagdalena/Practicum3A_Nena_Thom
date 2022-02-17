@@ -16,7 +16,11 @@ public class Voetbalclub {
     public int aantalPunten(){
         return 3 * aantalGewonnen + aantalGelijk;
     }
-    public String getClubNaam(){ return clubNaam; }
+
+    public String getClubNaam(){
+        if (clubNaam == null || clubNaam == "") return "FC";
+        else return clubNaam;
+    }
 
     public void verwerkResultaat(char ch) {
         if (ch == 'w')
