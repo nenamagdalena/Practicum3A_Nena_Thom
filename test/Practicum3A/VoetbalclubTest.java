@@ -1,4 +1,4 @@
-package Practicum2B;
+package Practicum3A;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

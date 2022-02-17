@@ -1,4 +1,4 @@
-package Practicum2B;
+package Practicum3A;
 
 public class Voetbalclub {
     private int aantalGewonnen;
