@@ -1,4 +1,4 @@
-package Practicum4A;
+package Practicum3A;
 
 public class Main {
 }
